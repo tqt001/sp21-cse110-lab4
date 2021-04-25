@@ -20,9 +20,9 @@
 11. This returns all the pushed discountedPrice in the list discounted. This is possible as the discounted variable was declared as const outside of the for loop. This means it exists in the scope of the function.  
 12. 
     A. student.name  
-    B. student["Grad Year]  
+    B. student["Grad Year"]  
     C. student.greeting()  
-    D. student  
+    D. student['Favorite Teacher'].name
     E. student.courseload[0]
 
 13. 
