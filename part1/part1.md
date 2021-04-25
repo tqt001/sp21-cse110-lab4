@@ -18,9 +18,20 @@
 9. `ReferenceError: i is not defined` This was an error because of the let type of the i variable being declared in the for loop.  
 10. `3` This was returned because of the length variable being declared as const out side of the for loop. It exists in the scope of the function.  
 11. This returns all the pushed discountedPrice in the list discounted. This is possible as the discounted variable was declared as const outside of the for loop. This means it exists in the scope of the function.  
-12.  
+12. 
     A. student.name  
-    B. student.  
-    C.  
-    D.   
-    E.   
+    B. student["Grad Year]
+    C. student.greeting()
+    D. student
+    E. student.courseload[0]
+
+13. 
+    A. `32` This is returned because + operator is for numeric addition and string concatenation. In this case, the 2 is converted to a string and is added to the 3 string.  
+    B. `1` This is returned because - operator is used for numeric subraction only. In this case, the 3 is converted to a numerical value and is then subtracted with 2.  
+    C. `3` This is returned because the null value is evaulted to 0 and 0 + 3 = 3.  
+    D. `3null` This is returned because the + operator changes everything to strings for concatenation.  
+    E. `4` This is returned because true is evaluated to 1 and 1 + 3 = 4.   
+    F. `0` This is returned because both false and null both are evaluated to 0 and 0 + 0 = 0.  
+    G. `3undefined` This is returned because the + operator changes everything to a string for concatenation.  
+    H. `NaN` This is returned because the - operator is only for numerical subtraction operations, but the undefined evaulates to NaN. Therefore, the result is NaN.  
+    
