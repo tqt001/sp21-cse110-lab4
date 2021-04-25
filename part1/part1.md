@@ -26,11 +26,22 @@
     E. student.courseload[0]
 
 13. 
-    A. `32` This is returned because + operator is for numeric addition and string concatenation. In this case, the 2 is converted to a string and is added to the 3 string.  
-    B. `1` This is returned because - operator is used for numeric subraction only. In this case, the 3 is converted to a numerical value and is then subtracted with 2.  
-    C. `3` This is returned because the null value is evaulted to 0 and 0 + 3 = 3.  
-    D. `3null` This is returned because the + operator changes everything to strings for concatenation.  
-    E. `4` This is returned because true is evaluated to 1 and 1 + 3 = 4.   
-    F. `0` This is returned because both false and null both are evaluated to 0 and 0 + 0 = 0.  
-    G. `3undefined` This is returned because the + operator changes everything to a string for concatenation.  
-    H. `NaN` This is returned because the - operator is only for numerical subtraction operations, but the undefined evaulates to NaN. Therefore, the result is NaN.  
+    A. `32` This was returned because + operator was for numeric addition and string concatenation. In this case, the 2 was converted to a string and was added to the 3 string.  
+    B. `1` This was returned because - operator was used for numeric subraction only. In this case, the 3 was converted to a numerical value and was then subtracted with 2.  
+    C. `3` This was returned because the null value was evaulted to 0 and 0 + 3 = 3.  
+    D. `3null` This was returned because the + operator changes everything to strings for concatenation.  
+    E. `4` This was returned because true was evaluated to 1 and 1 + 3 = 4.   
+    F. `0` This was returned because both false and null both are evaluated to 0 and 0 + 0 = 0.  
+    G. `3undefined` This was returned because the + operator changes everything to a string for concatenation.  
+    H. `NaN` This was returned because the - operator was only for numerical subtraction operations, but the undefined evaulates to NaN. Therefore, the result was NaN.  
+
+14.  
+    A. `true` This was returned because the 2 turned into a numerical and then is compared to 1. 
+    B. `false` This was returned because this will be compared as a string. So starting with the first index, we see that 1 is less than 2 alphabetically. Therefore, false was returned. 
+    C. `true` This was returned because the '2' is casted to a numerical value. We know that 2 == 2.
+    D. `false` This was returned because the === is a strict comparison operator and since the type is different, it will return false. In this case, we have a numerical and string comparison. 
+    E. `false` This was returned because true is evaluated to 1. We know that 1 is not equal to 2. Therefore, the return value is false. 
+    F. `true` This was returned because the Boolean(2) will be evaluated to true. We know that true == true is equal to true. Therefore, the returned value is true. 
+
+15. `==` will compare variables with type correction. `===` will compare the variables literally by checking the value and the type. 
+
