@@ -20,9 +20,9 @@
 11. This returns all the pushed discountedPrice in the list discounted. This is possible as the discounted variable was declared as const outside of the for loop. This means it exists in the scope of the function.  
 12. 
     A. student.name  
-    B. student["Grad Year]
-    C. student.greeting()
-    D. student
+    B. student["Grad Year]  
+    C. student.greeting()  
+    D. student  
     E. student.courseload[0]
 
 13. 
@@ -34,4 +34,3 @@
     F. `0` This is returned because both false and null both are evaluated to 0 and 0 + 0 = 0.  
     G. `3undefined` This is returned because the + operator changes everything to a string for concatenation.  
     H. `NaN` This is returned because the - operator is only for numerical subtraction operations, but the undefined evaulates to NaN. Therefore, the result is NaN.  
-    
