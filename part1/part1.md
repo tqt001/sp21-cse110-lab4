@@ -36,11 +36,11 @@
     H. `NaN` This was returned because the - operator was only for numerical subtraction operations, but the undefined evaulates to NaN. Therefore, the result was NaN.  
 
 14.  
-    A. `true` This was returned because the 2 turned into a numerical and then is compared to 1. 
-    B. `false` This was returned because this will be compared as a string. So starting with the first index, we see that 1 is less than 2 alphabetically. Therefore, false was returned. 
-    C. `true` This was returned because the '2' is casted to a numerical value. We know that 2 == 2.
-    D. `false` This was returned because the === is a strict comparison operator and since the type is different, it will return false. In this case, we have a numerical and string comparison. 
-    E. `false` This was returned because true is evaluated to 1. We know that 1 is not equal to 2. Therefore, the return value is false. 
+    A. `true` This was returned because the 2 turned into a numerical and then is compared to 1.  
+    B. `false` This was returned because this will be compared as a string. So starting with the first index, we see that 1 is less than 2 alphabetically. Therefore, false was returned.  
+    C. `true` This was returned because the '2' is casted to a numerical value. We know that 2 == 2.  
+    D. `false` This was returned because the === is a strict comparison operator and since the type is different, it will return false. In this case, we have a numerical and string comparison.  
+    E. `false` This was returned because true is evaluated to 1. We know that 1 is not equal to 2. Therefore, the return value is false.  
     F. `true` This was returned because the Boolean(2) will be evaluated to true. We know that true == true is equal to true. Therefore, the returned value is true. 
 
 15. `==` will compare variables with type correction. `===` will compare the variables literally by checking the value and the type. 
