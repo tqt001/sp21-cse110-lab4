@@ -44,6 +44,7 @@
     F. `true` This was returned because the Boolean(2) will be evaluated to true. We know that true == true is equal to true. Therefore, the returned value is true. 
 
 15. `==` will compare variables with type correction. `===` will compare the variables literally by checking the value and the type. 
-
+16. check js file
 17. `[2, 4, 6]` This was returned because the doSomething function will double the parameters that is passed in. We see that this will be pushed into the newArr. 
+18. check js file
 19. `1 4 3 2` 
