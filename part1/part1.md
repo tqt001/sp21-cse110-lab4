@@ -18,7 +18,7 @@
 9. `ReferenceError: i is not defined` This was an error because of the let type of the i variable being declared in the for loop.  
 10. `3` This was returned because of the length variable being declared as const out side of the for loop. It exists in the scope of the function.  
 11. This returns all the pushed discountedPrice in the list discounted. This is possible as the discounted variable was declared as const outside of the for loop. This means it exists in the scope of the function.  
-12. 
+12.  
     A. student.name
     B. student.
     C.
