@@ -45,3 +45,5 @@
 
 15. `==` will compare variables with type correction. `===` will compare the variables literally by checking the value and the type. 
 
+17. `[2, 4, 6]` This was returned because the doSomething function will double the parameters that is passed in. We see that this will be pushed into the newArr. 
+19. `1 4 3 2` 
